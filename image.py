@@ -9,6 +9,13 @@ import tkinter as tk
 from tkinter import ttk
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
+from tkinter import scrolledtext
+import pytesseract
+
+
+# Set the Tesseract executable path for Windows
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\HP\scoop\apps\tesseract\current\tesseract.exe'  # Update with your Tesseract path
+
 
 class ImageCropper:
     def __init__(self, master, image_path):
