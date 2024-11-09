@@ -27,7 +27,8 @@
 2. **Install Dependencies** 📦:
    Run the following command to install the required packages:
    ```bash
-   pip install -r requirements.txt
+   pip install ttkbootstrap pillow pytesseract
+
    ```
    This will install:
    - `tkinter`
